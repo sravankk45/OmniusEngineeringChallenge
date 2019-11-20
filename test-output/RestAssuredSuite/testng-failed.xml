@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [RestAssuredSuite]">
+  <test thread-count="5" name="GetReqest(failed)">
+    <classes>
+      <class name="com.omnius.tests.JSONResponseTest">
+        <methods>
+          <include name="GetDocumentCountbyStatus"/>
+        </methods>
+      </class> <!-- com.omnius.tests.JSONResponseTest -->
+    </classes>
+  </test> <!-- GetReqest(failed) -->
+</suite> <!-- Failed suite [RestAssuredSuite] -->

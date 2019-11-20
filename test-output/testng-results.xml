@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Omnius Engineering Challenge" duration-ms="35738" started-at="2019-11-19T15:50:48Z" finished-at="2019-11-19T15:51:24Z">
+    <groups>
+    </groups>
+    <test name="TrainerDocumentExplorerTests" duration-ms="35738" started-at="2019-11-19T15:50:48Z" finished-at="2019-11-19T15:51:24Z">
+      <class name="com.omnius.testautomation.tests.TrainerDocumentExplorerTests">
+        <test-method status="PASS" signature="launchSite()[pri:0, instance:com.omnius.testautomation.tests.TrainerDocumentExplorerTests@35dab4eb]" name="launchSite" is-config="true" duration-ms="5521" started-at="2019-11-19T15:50:48Z" finished-at="2019-11-19T15:50:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchSite -->
+        <test-method status="PASS" signature="login()[pri:0, instance:com.omnius.testautomation.tests.TrainerDocumentExplorerTests@35dab4eb]" name="login" is-config="true" duration-ms="1950" started-at="2019-11-19T15:50:54Z" finished-at="2019-11-19T15:50:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="createNewCollection(java.lang.String)[pri:1, instance:com.omnius.testautomation.tests.TrainerDocumentExplorerTests@35dab4eb]" name="createNewCollection" duration-ms="3735" started-at="2019-11-19T15:50:56Z" finished-at="2019-11-19T15:51:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Test1117652]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createNewCollection -->
+        <test-method status="PASS" signature="login()[pri:0, instance:com.omnius.testautomation.tests.TrainerDocumentExplorerTests@35dab4eb]" name="login" is-config="true" duration-ms="1590" started-at="2019-11-19T15:51:00Z" finished-at="2019-11-19T15:51:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="searchCollection(java.lang.String)[pri:2, instance:com.omnius.testautomation.tests.TrainerDocumentExplorerTests@35dab4eb]" name="searchCollection" duration-ms="6353" started-at="2019-11-19T15:51:01Z" finished-at="2019-11-19T15:51:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TestCollection]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchCollection -->
+        <test-method status="PASS" signature="login()[pri:0, instance:com.omnius.testautomation.tests.TrainerDocumentExplorerTests@35dab4eb]" name="login" is-config="true" duration-ms="2046" started-at="2019-11-19T15:51:08Z" finished-at="2019-11-19T15:51:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="uploadDocuments(java.lang.String, java.lang.String)[pri:3, instance:com.omnius.testautomation.tests.TrainerDocumentExplorerTests@35dab4eb]" name="uploadDocuments" duration-ms="13828" started-at="2019-11-19T15:51:10Z" finished-at="2019-11-19T15:51:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[anothersample]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[TestCollection]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- uploadDocuments -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.omnius.testautomation.tests.TrainerDocumentExplorerTests@35dab4eb]" name="closeBrowser" is-config="true" duration-ms="680" started-at="2019-11-19T15:51:24Z" finished-at="2019-11-19T15:51:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.omnius.testautomation.tests.TrainerDocumentExplorerTests -->
+    </test> <!-- TrainerDocumentExplorerTests -->
+  </suite> <!-- Omnius Engineering Challenge -->
+</testng-results>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Omnius Engineering Challenge]">
+  <test thread-count="5" name="TrainerDocumentExplorerTests(failed)">
+    <parameter name="fileName" value="anothersample"/>
+    <parameter name="searchCollection" value="TestCollection"/>
+    <parameter name="collectionName" value="Test1117645"/>
+    <classes>
+      <class name="com.omnius.testautomation.tests.TrainerDocumentExplorerTests">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="uploadDocuments" invocation-numbers="0"/>
+          <include name="launchSite"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.omnius.testautomation.tests.TrainerDocumentExplorerTests -->
+    </classes>
+  </test> <!-- TrainerDocumentExplorerTests(failed) -->
+</suite> <!-- Failed suite [Omnius Engineering Challenge] -->

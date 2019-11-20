@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://beust.com/testng/testng-1.0.dtd" >
+<suite name="Omnius Engineering Challenge">
+
+   
+    
+     <test name="TrainerDocumentExplorerTests">
+		<parameter name="collectionName" value="Test1117652" />
+		<parameter name="searchCollection" value="TestCollection" />
+		<parameter name="fileName" value="anothersample" />
+		<classes>
+	  		<class name="com.omnius.testautomation.tests.TrainerDocumentExplorerTests" />
+		</classes>
+		
+    </test>
+
+</suite>
